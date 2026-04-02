@@ -1,0 +1,26 @@
+# Python Verzeichnisse
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ltv-portfolio-project.code-workspace
+
+# Daten (Wir laden nur die Struktur hoch, nicht die 1.4M Zeilen)
+data/raw/*.csv
+data/processed/*.csv
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Visualisierungen
+plots/*.png
+plots/*.jpg
+
+# Betriebssystem
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
